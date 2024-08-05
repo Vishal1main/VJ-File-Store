@@ -23,7 +23,7 @@ API_HASH = environ.get("API_HASH", "0c44906a4feff3b947db76dfa7c57d88")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7013966415:AAF42iyER8MPyF--d5Emb3Pc69tUk-do-Cw")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6987799874').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Filestore_token_bot") # without @
 PORT = environ.get("PORT", "8080")
 
@@ -67,7 +67,7 @@ VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/How_To_Open_Linkl
 WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
 
 # If Website Url Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-WEBSITE_URL = environ.get("WEBSITE_URL", "") # For More Information Check Video On Yt - @Tech_VJ
+WEBSITE_URL = environ.get("WEBSITE_URL", "https://tmr2links.blogspot.com/2024/08/circle-timer-for-link-shortener-body.html") # For More Information Check Video On Yt - @Tech_VJ
 
 # File Stream Config
 STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
